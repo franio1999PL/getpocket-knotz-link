@@ -42,7 +42,7 @@ auth.fetchToken(consumerKey, redirectUri, {}, function (err, code) {
         // get/retrieve/search parameters
         favorite: 1,
         count: 1000,
-        sort: 'newest'
+        sort: 'oldest'
       }
       pocket.get(params, (err, resp) => {
         if (err) {
