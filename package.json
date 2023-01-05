@@ -1,0 +1,26 @@
+{
+  "name": "getpocket-knotz-link",
+  "version": "0.1.0",
+  "description": "Api napisane w nodejs i express do pobierania artykulow z getpocket.com",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "api"
+  ],
+  "author": "Franciszek Sikora contact@blady.dev",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.2.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "https": "^1.0.0",
+    "node-getpocket": "^1.0.0",
+    "nodemon": "^2.0.20",
+    "pocket-auth": "^1.2.4"
+  }
+}
