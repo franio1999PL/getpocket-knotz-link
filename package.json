@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "description": "Api napisane w nodejs i express do pobierania artykulow z getpocket.com",
   "main": "server.js",
-  "type": "module",
   "scripts": {
     "dev": "nodemon server.js",
     "start": "node server.js"
