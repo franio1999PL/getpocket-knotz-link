@@ -1,8 +1,8 @@
-import auth from 'pocket-auth'
-import express from 'express'
-import cors from 'cors'
-import GetPocket from 'node-getpocket'
-import dotenv from 'dotenv'
+const auth = require('pocket-auth')
+const express = require('express')
+const cors = require('cors')
+const GetPocket = require('node-getpocket')
+const dotenv = require('dotenv')
 
 dotenv.config()
 
